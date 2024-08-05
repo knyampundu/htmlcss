@@ -6,6 +6,7 @@ body {
   width: 100%;
 }
 
+/* HEADER */
 .header {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/section1.jpg");
@@ -155,7 +156,7 @@ body {
 }
 @media (max-width: 412px) {
   .header {
-    height: 800px;
+    height: 1000px;
   }
   .header .nav .logo {
     width: 53px;
@@ -171,12 +172,28 @@ body {
   .header .section1 .section1Texts {
     max-width: 100%;
   }
+  .header .section1 .sectionInfo {
+    display: block;
+    right: 10px;
+    left: 10px;
+  }
 }
 
+/* BODY */
 .body {
   background-color: #ffffff;
   margin: 0px;
-  /* see more */
+  /* ABOUT US */
+  /* VALUES */
+  /* GOALS */
+  /* PROGRAMS */
+  /* IMPACT */
+  /* EVENTS */
+  /* STORIES */
+  /* SHOP */
+  /* FAQ */
+  /* VOLUNTEERS */
+  /* CONTACT US */
 }
 .body .section2 {
   display: flex;
@@ -1486,6 +1503,7 @@ body {
   }
 }
 
+/* FOOTER */
 .footer {
   position: relative;
   padding: 0px;

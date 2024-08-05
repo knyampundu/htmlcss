@@ -18,6 +18,7 @@ body {
   width: 100%;
 }
 
+/* HEADER */
 .header {
   position: relative;
   background: linear-gradient(
@@ -173,8 +174,7 @@ body {
     }
   }
   @media (max-width: 412px) {
-    height: 800px;
-
+    height: 1000px;
     .nav {
       .logo {
         width: 53px;
@@ -185,20 +185,26 @@ body {
         display: none;
       }
     }
-    .section1{
+    .section1 {
       margin: 40px 60px 0px 60px;
-      .section1Texts{
+      .section1Texts {
         max-width: 100%;
       }
+      .sectionInfo {
+        display: block;
+        right: 10px;
+        left: 10px;
+      }
     }
-    
   }
 }
 
+/* BODY */
 .body {
   background-color: $secondary-color;
   margin: 0px;
 
+  /* ABOUT US */
   .section2 {
     display: flex;
     align-items: flex-start;
@@ -276,6 +282,7 @@ body {
     }
   }
 
+  /* VALUES */
   .section3 {
     position: relative;
     background: url("./assets/valuesImg.png");
@@ -320,6 +327,7 @@ body {
     }
   }
 
+  /* GOALS */
   .section4 {
     display: flex;
     align-items: flex-start;
@@ -395,6 +403,7 @@ body {
     }
   }
 
+  /* PROGRAMS */
   .section5 {
     padding: 0px 80px 60px 80px;
     margin: 80px 0px 0px 0px;
@@ -640,6 +649,7 @@ body {
     }
   }
 
+  /* IMPACT */
   .section6 {
     display: flex;
     text-align: left;
@@ -742,6 +752,7 @@ body {
     }
   }
 
+  /* EVENTS */
   .section7 {
     padding: 0px 80px 60px 80px;
     margin: 80px 0px 0px 0px;
@@ -910,6 +921,7 @@ body {
     }
   }
 
+  /* STORIES */
   .section8 {
     display: flex;
     padding: 0px 80px 60px 80px;
@@ -1045,7 +1057,7 @@ body {
     }
   }
 
-  /* see more */
+  /* SHOP */
   .section9 {
     padding: 0px 80px 60px 80px;
     margin: 80px 0px 0px 0px;
@@ -1197,6 +1209,7 @@ body {
     }
   }
 
+  /* FAQ */
   .section10 {
     padding: 0px 80px 100px 80px;
     margin: 60px 0px 0px 0px;
@@ -1343,6 +1356,7 @@ body {
     }
   }
 
+  /* VOLUNTEERS */
   .section11 {
     background: url("./assets/volunteerImg.png") no-repeat center center / cover;
     display: flex;
@@ -1384,6 +1398,7 @@ body {
     }
   }
 
+  /* CONTACT US */
   .section12 {
     display: flex;
     align-items: flex-start;
@@ -1511,6 +1526,7 @@ body {
   }
 }
 
+/* FOOTER */
 .footer {
   position: relative;
   padding: 0px;
